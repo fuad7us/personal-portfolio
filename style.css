@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h1 span {
+  color: palevioletred;
+}
+
+p {
+  color: dimgray;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+section {
+  display: block;
+  width: 100%;
+  min-height: 700px;  
+}
+
+.p-50 {
+  padding-top: 50px;
+}
+
+.top-banner {
+  background-image: url("images/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+.bio-area {
+  background-image: url("images/biography-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+.work-area {
+  background-image: url("images/latest-work-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+
+.client-area {
+  background-image: url("images/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 0 50px;
+  text-align: center;
+}
+
+.work-area h2 {
+  text-align: center;
+}
+
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 5%;
+}
+
+.three-div-width {
+  width: 30%;
+  float: left;
+  margin-left: 2%;
+}
+
+.half-width img, .three-div-width img {
+  width: 100%;
+}
+
+.link-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, pink, palevioletred);
+}
+
+.contact {
+  width: 700px;
+  color: white;
+  background-image: linear-gradient(180deg, pink, palevioletred);
+  padding: 50px;
+  margin-top: 50px;
+  border-radius: 5px;
+  transform: translateX(-50%);
+  margin-left: 50%;
+}
+
+.comments {
+  display: block;
+  padding: 50px 0;
+  width: 500px;
+  transform: translateX(-50%);
+  margin-left: 50%;
+}
+
+footer p {
+  text-align: center;
+}
